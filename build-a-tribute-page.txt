@@ -1,0 +1,61 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang='en'>
+  <meta charset='UTF-8'></meta>
+  <link rel='stylesheet' href='styles.css'>
+  <main id='main'>
+    <title id='title'><h1>My Teenage Years</h1></title>
+
+    <div id='img-div' ><img id='image' src='https://images.pexels.com/photos/39853/woman-girl-freedom-happy-39853.jpeg?cs=srgb&dl=pexels-jill-wellington-1638660-39853.jpg&fm=jpg' alt='man breaking free from chains'></img><div id='img-caption'><i>How my teenage years felt</i></div></div>
+
+    <div id='tribute-info'>Looking back, I am very thankful for my teenage years. I had so much free time and opportunities in additions to limited responsibilites. However I should not romanticise my past because even then I was stressed and angry. </div>
+
+    <a id='tribute-link' href='https://en.wikipedia.org/wiki/Nostalgia' target='_blank'>Nostalgia explained further on Wikipedia</a>
+  </main>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  background-color: #D0AAF4;
+
+}
+
+#img-div {
+  padding: 10px
+}
+
+
+#img-caption {
+  font-size: 20px; 
+  padding-bottom: 20px;
+  padding-top: 5px;
+  color: #FFF6F9;
+}
+
+
+#image {
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin: auto;
+}
+
+#tribute-info {
+  font-size: 25px;
+  text-align: justify;
+  padding: 10px;
+}
+
+a {
+  font-size: 20px;
+  padding-left: 10px;
+  color: black;
+}
+
+** end of undefined **
+
