@@ -83,7 +83,7 @@ h1, p {
 
 }
 
-label, input, select {
+label, select {
   display: block;
   padding: 5px 30%;
   margin: 10px 0;
@@ -93,8 +93,8 @@ label, input, select {
 
 input[type='radio'], input[type='checkbox'] {
   display: inline;
-  margin-left: -20px;
-  margin-right: -70px;
+  margin-left: 20px;
+  margin-right: 70px;
 }
 
 textarea {
