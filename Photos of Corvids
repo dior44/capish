@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <meta charset='UTF-8'>
+    <body>
+        <h1>Photos of Corvids</h1>
+        <div class='gallery'>
+        <figure>
+            <img src='https://www.allaboutbirds.org/guide/assets/og/619048721-1200px.jpg' alt='American Crow'>
+            <figcaption>The Common Crow, also know as the American Crow</figcaption>
+        </figure>
+        
+        <figure>
+        <img src='https://base-prod.rspb-prod.magnolia-platform.com/.imaging/focalpoint/_WIDTH_x_HEIGHT_/dam/jcr:654b3e61-1f98-4ab1-827a-6bc321517942/___1850229250-Species-magpie-stood-on-branch_1.14086855069194369589.jpg' alt='Eurasian Magpie'>
+        <figcaption>The beautiful Black-billed Magpie</figcaption>
+        </figure>
+        
+        <figure>
+        <img src='https://www.allaboutbirds.org/guide/assets/og/525880701-1200px.jpg' alt='Blue Jay'>
+        <figcaption>Did you know Blue Jays are also part of the Corvid Family?</figcaption>
+        </figure>
+        <br>
+        <figure>
+        <img src='https://inaturalist-open-data.s3.amazonaws.com/photos/19780256/large.jpeg' alt='chihuahuan raven'>
+        <figcaption>Chihuahuan Ravens are native to Mexico and the USA</figcaption>
+        </figure>
+        
+        <figure>
+        <img src='https://warehouse1.indicia.org.uk/upload/12/92/96/Jackdaw1_BradgatePk_19Sep05.JPG' alt='jackdraw'>
+        <figcaption>Jackdraws are the smallest members of the corvid family</figcaption>
+        </figure>
+        
+        <figure>
+        <img src='https://images.birdfact.com/production/red-billed-chough.jpg?w=1800&h=1350&q=80&auto=format&fit=crop&dm=1707337873&s=224a3ea10ddb3fb9162e12ba652906d9' alt='chough'>
+        <figcaption>Choughs live near the water</figcaption>
+        </figure>
+        </div>
+    </body>
+</html>
+
+body {
+    text-align: center;
+}
+h1 {
+    margin: 0 auto;
+    background-color: black;
+    padding: 60px;
+    color: white;
+    border-top: 10px solid #702822;
+    border-bottom: 10px solid #702822; 
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+figure {
+    width: 30%;
+    margin: 10px 0;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+figcaption:hover {
+    display: block;
+    transition: transform 300ms ease-out;
+    transform: scale(1.2);
+}
+
+img:hover {
+    display: block;
+    transform: scale(1.5);
+    transition: transform 2s ;
+}
